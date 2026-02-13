@@ -1,4 +1,4 @@
-Project Overview
+🔹 Project Overview
 
 SafePal-AI is a real-time scam detection mobile application that monitors ongoing phone calls, transcribes conversations, performs speaker diarization, analyzes call intent using a Large Language Model (LLM), and instantly alerts users if scam activity is detected — while the call is still in progress.
 
@@ -6,8 +6,7 @@ This is not a spam-blocking app.
 It is a conversation-understanding AI safety system.
 
 
-System Architecture
-🔹 High-Level Flow
+🔹 System Architecture
 
 Incoming call detected
 
@@ -27,3 +26,5 @@ Alert pushed to mobile app in real time
 
 Transcript + verdict displayed live
 
+
+🔹 
