@@ -27,21 +27,3 @@ Alert pushed to mobile app in real time
 
 Transcript + verdict displayed live
 
-
-Build a real-time scam detection backend in Flask that:
-
-Accepts audio stream input
-
-Transcribes using Whisper API
-
-Performs speaker labeling
-
-Maintains rolling transcript buffer
-
-Sends transcript segments to GPT-4o
-
-Returns JSON verdict with confidence and reason
-
-Streams results to Flutter frontend via WebSocket
-
-Structure the code modularly and production-ready.
