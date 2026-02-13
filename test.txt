@@ -6,6 +6,28 @@ This is not a spam-blocking app.
 It is a conversation-understanding AI safety system.
 
 
+System Architecture
+🔹 High-Level Flow
+
+Incoming call detected
+
+Audio stream captured
+
+Audio streamed to backend
+
+Speech-to-text transcription
+
+Speaker diarization
+
+Transcript chunk sent to GPT-4o
+
+LLM returns verdict (Scam / Safe + reason)
+
+Alert pushed to mobile app in real time
+
+Transcript + verdict displayed live
+
+
 Build a real-time scam detection backend in Flask that:
 
 Accepts audio stream input
